@@ -1,37 +1,39 @@
 import { FaqItem, PricingTier, HighlightItem } from './types';
 
-// ==========================================
-// 🛠️ EDIT THIS FILE TO UPDATE CONTENT
-// ==========================================
-
 export const COMPANY_INFO = {
   name: "Escape to Paradise (ETP)",
-  organizerName: "[YOUR NAME]",
-  committeeName: "[YOUR ROTARACT CLUB / COMMITTEE]",
-  email: "[contact@example.com]",
-  instagram: "@[your_handle]",
-  whatsappLink: "https://wa.me/1234567890", // Your actual WhatsApp link
-  nextTripDates: "Nov 12 - Nov 20, 2024",
-  bookingCallLink: "#", // Link to Calendly or similar
+  organizerName: "ETP Organizing Committee",
+  committeeName: "Rotaract Sri Lanka",
+  email: "hello@etpsrilanka.com",
+  instagram: "@etpsrilanka",
+  whatsappLink: "https://wa.me/94770000000", 
+  nextTripDates: "March 2026",
+  googleFormLink: "https://docs.google.com/forms/d/e/1FAIpQLSck_oolYjYQ_l-r26yAS5ZM9m7lFDl_qOpEbLo1UwPW0u-a2A/viewform?fbzx=-7975462463569768430",
 };
 
 export const PRICING_TIERS: PricingTier[] = [
   {
     title: "Early Bird",
-    price: "$850 USD",
-    features: ["Save $100 vs Regular", "Shared Twin/Triple Room", "All Inclusions", "Limited Spots"],
+    price: "$650 USD",
+    features: [
+      "Submit on/before 31st Jan 2026",
+      "Shared Accommodation",
+      "All Transport & Entrance Fees",
+      "2 Meals per Day",
+      "Selection Interview Required"
+    ],
     isHighlight: true,
   },
   {
     title: "Regular",
-    price: "$950 USD",
-    features: ["Standard Price", "Shared Twin/Triple Room", "All Inclusions", "Flexible Payment Plan"],
-    isHighlight: false,
-  },
-  {
-    title: "Solo Upgrade",
-    price: "+$300 USD",
-    features: ["Private Room Guarantee", "King/Queen Bed", "More Privacy", "Limited Availability"],
+    price: "$700 USD",
+    features: [
+      "Submitted after 31st Jan 2026",
+      "Shared Accommodation",
+      "All Transport & Entrance Fees",
+      "2 Meals per Day",
+      "Selection Interview Required"
+    ],
     isHighlight: false,
   },
 ];
@@ -39,53 +41,53 @@ export const PRICING_TIERS: PricingTier[] = [
 export const FAQS: FaqItem[] = [
   {
     question: "Is this only for Rotaractors?",
-    answer: "Primarily yes! It's designed for Rotaractors, Rotarians, and friends of Rotary. If you vibe with the community spirit, you're welcome.",
-  },
-  {
-    question: "Is Sri Lanka safe for travelers?",
-    answer: "Absolutely. Tourism is booming, and we have local hosts and guides with us 24/7 to ensure a smooth, safe experience.",
+    answer: "Primarily yes! It's designed for Rotaractors, Rotarians, and friends of Rotary. If you vibe with the community spirit, service, and adventure, you're exactly who we're looking for.",
   },
   {
     question: "What’s the age range / vibe?",
-    answer: "Most attendees are between 20-35. The vibe is adventurous, social, and chilled. It's not a luxury honeymoon tour, but it's not a backpacker hostel crawl either.",
+    answer: "Most attendees are between 20-35. The vibe is adventurous, social, and chilled. It's about authentic connections—no stuffy tour buses here, just a solid crew exploring the island together.",
   },
   {
-    question: "Do I need a visa?",
-    answer: "Most nationalities need an ETA (Electronic Travel Authorization) which is easy to get online before arrival. We'll send you the guide.",
+    question: "How does the selection process work?",
+    answer: "We’re the ETP organizing committee, and every year we’re fired up to make ETP the best one yet! 🌴✨ To ensure a high-energy group, we select participants through a friendly interview process. Your package price is locked in based on when you submit your form!",
+  },
+  {
+    question: "I've been selected! What are the next steps?",
+    answer: "Congrats! If you're selected, you'll need to pay a USD 100 non-refundable confirmation fee within 7 days. You’ll then have another week to submit your paid return airfare ticket as final proof of confirmation.",
+  },
+  {
+    question: "What about the remaining balance?",
+    answer: "The remaining USD 550 (Early Bird) or USD 600 (Regular) must be deposited on or before 22nd February 2026. We’ll be in touch regularly to make sure you're fully ready for the ETP experience!",
   },
   {
     question: "What if I’m coming solo?",
-    answer: "No problem! 70% of our travelers come solo. We'll pair you up in a shared room with someone of the same gender, or you can book the solo upgrade.",
+    answer: "No problem! Most of our travelers come solo. We'll pair you up with a roommate of the same gender. By the end of day one, you'll feel like you've known the crew for years.",
   },
   {
-    question: "How do deposits work?",
-    answer: "A $200 non-refundable deposit secures your spot. The rest is paid in installments leading up to the trip.",
-  },
-  {
-    question: "Refund/Cancellation Policy",
-    answer: "Deposits are non-refundable to cover booking fees. Full refunds (minus deposit) available up to 45 days before the trip. [EDIT THIS POLICY]",
+    question: "Is Sri Lanka safe for travelers?",
+    answer: "Absolutely. Tourism is thriving, and our committee provides local hosts and guides 24/7. We handle the logistics so you can focus on the paradise.",
   },
 ];
 
 export const HIGHLIGHTS: HighlightItem[] = [
   {
-    title: "The Perfect Route",
-    description: "Colombo → Cultural Triangle → Hill Country → South Coast. The ultimate loop.",
+    title: "Curated Route",
+    description: "Explore the most fantastic destinations across our beautiful island, from Sigiriya to the South Coast.",
     iconName: "Map",
   },
   {
-    title: "Iconic Views",
-    description: "That famous blue train ride, tea plantations, and misty mountains.",
+    title: "All-Inclusive Base",
+    description: "Transport, entry fees, and 2 meals daily are all handled by us. Just bring your energy.",
     iconName: "Train",
   },
   {
-    title: "Tropical Bliss",
-    description: "Sunset beach parties, surf lessons (optional), and coconut palms.",
+    title: "Immersive Experiences",
+    description: "Featuring unique sessions like the Grizzly storytelling lunch in Weligama.",
     iconName: "Palmtree",
   },
   {
-    title: "Rotaract Crew",
-    description: "Travel with people who share your values. Instant friends, zero awkwardness.",
+    title: "The ETP Spirit",
+    description: "We're fired up to make this the best ETP yet. You're traveling with the best committee in the island.",
     iconName: "Users",
   },
 ];

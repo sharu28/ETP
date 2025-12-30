@@ -5,8 +5,7 @@ import Highlights from './components/Highlights';
 import Credibility from './components/Credibility';
 import Inclusions from './components/Inclusions';
 import Pricing from './components/Pricing';
-import ClubOffer from './components/ClubOffer';
-import LeadForm from './components/LeadForm';
+import CTASection from './components/CTASection';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 
@@ -18,9 +17,8 @@ function App() {
       <Highlights />
       <Credibility />
       <Inclusions />
-      <ClubOffer />
       <Pricing />
-      <LeadForm />
+      <CTASection />
       <FAQ />
       <Footer />
     </div>

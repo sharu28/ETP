@@ -14,11 +14,6 @@ const Navbar: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToForm = () => {
-    document.getElementById('info-pack-form')?.scrollIntoView({ behavior: 'smooth' });
-    setIsMobileMenuOpen(false);
-  };
-
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
@@ -27,7 +22,7 @@ const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
-        <div className="font-bold text-2xl tracking-tighter cursor-pointer" onClick={() => window.scrollTo(0,0)}>
+        <div className="font-bold text-2xl tracking-tighter cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <span className="text-tropical-teal">ETP</span>
           <span className={isScrolled ? 'text-gray-800' : 'text-white'}>SriLanka</span>
         </div>
@@ -37,12 +32,14 @@ const Navbar: React.FC = () => {
           <a href="#highlights" className={`text-sm font-medium hover:text-tropical-teal transition ${isScrolled ? 'text-gray-600' : 'text-white/90'}`}>Highlights</a>
           <a href="#pricing" className={`text-sm font-medium hover:text-tropical-teal transition ${isScrolled ? 'text-gray-600' : 'text-white/90'}`}>Pricing</a>
           <a href="#faq" className={`text-sm font-medium hover:text-tropical-teal transition ${isScrolled ? 'text-gray-600' : 'text-white/90'}`}>FAQ</a>
-          <button
-            onClick={scrollToForm}
-            className="bg-tropical-orange hover:bg-orange-600 text-white px-5 py-2 rounded-full font-bold transition shadow-lg transform hover:scale-105"
+          <a
+            href={COMPANY_INFO.googleFormLink}
+            target="_blank"
+            rel="noreferrer"
+            className="bg-tropical-orange hover:bg-orange-600 text-white px-6 py-2 rounded-full font-bold transition shadow-lg transform hover:scale-105"
           >
-            Get Info Pack
-          </button>
+            Apply Now
+          </a>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -59,12 +56,14 @@ const Navbar: React.FC = () => {
           <a href="#highlights" onClick={() => setIsMobileMenuOpen(false)} className="text-gray-800 font-medium">Highlights</a>
           <a href="#pricing" onClick={() => setIsMobileMenuOpen(false)} className="text-gray-800 font-medium">Pricing</a>
           <a href="#faq" onClick={() => setIsMobileMenuOpen(false)} className="text-gray-800 font-medium">FAQ</a>
-          <button
-            onClick={scrollToForm}
+          <a
+            href={COMPANY_INFO.googleFormLink}
+            target="_blank"
+            rel="noreferrer"
             className="bg-tropical-orange text-white px-5 py-3 rounded-xl font-bold text-center w-full"
           >
-            Get Info Pack
-          </button>
+            Apply Now
+          </a>
         </div>
       )}
     </nav>
