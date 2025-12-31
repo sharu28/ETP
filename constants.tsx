@@ -41,7 +41,7 @@ export const PRICING_TIERS: PricingTier[] = [
       "Submit on/before 31st Jan 2026",
       "Shared Accommodation",
       "All Transport & Entrance Fees",
-      "2 Meals per Day",
+      "3 Meals per Day",
       "Selection Interview Required"
     ],
     isHighlight: true,
@@ -53,7 +53,7 @@ export const PRICING_TIERS: PricingTier[] = [
       "Submitted after 31st Jan 2026",
       "Shared Accommodation",
       "All Transport & Entrance Fees",
-      "2 Meals per Day",
+      "3 Meals per Day",
       "Selection Interview Required"
     ],
     isHighlight: false,
@@ -99,7 +99,7 @@ export const HIGHLIGHTS: HighlightItem[] = [
   },
   {
     title: "All-Inclusive Base",
-    description: "Transport, entry fees, and 2 meals daily are all handled by us. Just bring your energy.",
+    description: "Transport, entry fees, and 3 meals daily are all handled by us. Just bring your energy.",
     iconName: "Train",
   },
   {

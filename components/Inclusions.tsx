@@ -5,7 +5,7 @@ const Inclusions: React.FC = () => {
   const included = [
     "Shared Accommodation (Full Duration)",
     "Private Transport Across the Island",
-    "2 Meals Per Day (Breakfast + Dinner/Lunch)",
+    "3 Meals Per Day (Breakfast + Lunch + Dinner)",
     "Entrance Fees for all ETP 2026 Sites",
     "Curated Group Activities & Sessions",
     "Dedicated Organizing Team Support"
