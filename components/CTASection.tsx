@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight, ExternalLink } from 'lucide-react';
-import { COMPANY_INFO } from '../constants';
+import { COMPANY_INFO } from '../constants.tsx';
 
 const CTASection: React.FC = () => {
   return (
@@ -45,6 +45,4 @@ const CTASection: React.FC = () => {
       </div>
     </section>
   );
-};
-
-export default CTASection;
+}; export default CTASection;

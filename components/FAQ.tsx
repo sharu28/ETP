@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Plus, Minus } from 'lucide-react';
-import { FAQS } from '../constants';
+import { FAQS } from '../constants.tsx';
 
 const FAQ: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -49,6 +49,4 @@ const FAQ: React.FC = () => {
       </div>
     </section>
   );
-};
-
-export default FAQ;
+}; export default FAQ;

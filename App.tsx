@@ -1,13 +1,13 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Highlights from './components/Highlights';
-import Credibility from './components/Credibility';
-import Inclusions from './components/Inclusions';
-import Pricing from './components/Pricing';
-import CTASection from './components/CTASection';
-import FAQ from './components/FAQ';
-import Footer from './components/Footer';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import Highlights from './components/Highlights.tsx';
+import Credibility from './components/Credibility.tsx';
+import Inclusions from './components/Inclusions.tsx';
+import Pricing from './components/Pricing.tsx';
+import CTASection from './components/CTASection.tsx';
+import FAQ from './components/FAQ.tsx';
+import Footer from './components/Footer.tsx';
 
 function App() {
   return (

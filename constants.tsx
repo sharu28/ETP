@@ -1,4 +1,4 @@
-import { FaqItem, PricingTier, HighlightItem } from './types';
+import { FaqItem, PricingTier, HighlightItem } from './types.ts';
 
 export const COMPANY_INFO = {
   name: "Escape to Paradise (ETP)",
@@ -83,7 +83,7 @@ export const HIGHLIGHTS: HighlightItem[] = [
   {
     title: "Immersive Experiences",
     description: "Featuring unique sessions like the Grizzly storytelling lunch in Weligama.",
-    iconName: "Palmtree",
+    iconName: "TreePalm",
   },
   {
     title: "The ETP Spirit",

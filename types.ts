@@ -13,5 +13,5 @@ export interface FaqItem {
 export interface HighlightItem {
   title: string;
   description: string;
-  iconName: 'Map' | 'Train' | 'Palmtree' | 'Users';
+  iconName: 'Map' | 'Train' | 'TreePalm' | 'Users';
 }

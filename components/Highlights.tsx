@@ -1,11 +1,11 @@
 import React from 'react';
-import { Map, Train, Palmtree, Users } from 'lucide-react';
-import { HIGHLIGHTS } from '../constants';
+import { Map, Train, TreePalm, Users } from 'lucide-react';
+import { HIGHLIGHTS } from '../constants.tsx';
 
 const iconMap = {
   Map: Map,
   Train: Train,
-  Palmtree: Palmtree,
+  TreePalm: TreePalm,
   Users: Users,
 };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { COMPANY_INFO } from '../constants';
+import { COMPANY_INFO } from '../constants.tsx';
 import { Instagram, Mail, MessageCircle } from 'lucide-react';
 
 const Footer: React.FC = () => {
@@ -15,13 +15,13 @@ const Footer: React.FC = () => {
 
           {/* Social Links */}
           <div className="flex gap-6">
-            <a href={`https://instagram.com/${COMPANY_INFO.instagram}`} className="hover:text-tropical-teal transition">
+            <a href={`https://instagram.com/${COMPANY_INFO.instagram}`} className="hover:text-tropical-teal transition" target="_blank" rel="noreferrer">
               <Instagram className="w-6 h-6" />
             </a>
              <a href={`mailto:${COMPANY_INFO.email}`} className="hover:text-tropical-teal transition">
               <Mail className="w-6 h-6" />
             </a>
-             <a href={COMPANY_INFO.whatsappLink} className="hover:text-tropical-teal transition">
+             <a href={COMPANY_INFO.whatsappLink} className="hover:text-tropical-teal transition" target="_blank" rel="noreferrer">
               <MessageCircle className="w-6 h-6" />
             </a>
           </div>
@@ -30,8 +30,8 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
           <p>&copy; {new Date().getFullYear()} Escape to Paradise. All rights reserved.</p>
           <div className="flex gap-4 mt-4 md:mt-0">
-             <span>Terms & Conditions [Placeholder]</span>
-             <span>Privacy Policy [Placeholder]</span>
+             <span>Terms & Conditions</span>
+             <span>Privacy Policy</span>
           </div>
         </div>
         <p className="text-center text-xs text-gray-600 mt-8">
@@ -40,6 +40,4 @@ const Footer: React.FC = () => {
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}; export default Footer;

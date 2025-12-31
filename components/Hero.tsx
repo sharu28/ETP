@@ -1,6 +1,6 @@
 import React from 'react';
 import { CheckCircle2, Users, ArrowRight, Calendar } from 'lucide-react';
-import { COMPANY_INFO } from '../constants';
+import { COMPANY_INFO } from '../constants.tsx';
 
 const Hero: React.FC = () => {
   return (

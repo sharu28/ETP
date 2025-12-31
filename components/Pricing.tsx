@@ -1,5 +1,5 @@
 import React from 'react';
-import { PRICING_TIERS, COMPANY_INFO } from '../constants';
+import { PRICING_TIERS, COMPANY_INFO } from '../constants.tsx';
 import { Check, Info, ArrowRight } from 'lucide-react';
 
 const Pricing: React.FC = () => {
@@ -99,6 +99,4 @@ const Pricing: React.FC = () => {
       </div>
     </section>
   );
-};
-
-export default Pricing;
+}; export default Pricing;

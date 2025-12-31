@@ -1,5 +1,5 @@
 import React from 'react';
-import { COMPANY_INFO } from '../constants';
+import { COMPANY_INFO } from '../constants.tsx';
 
 const Credibility: React.FC = () => {
   return (
@@ -50,7 +50,7 @@ const Credibility: React.FC = () => {
              </div>
              <div className="space-y-4">
                 <img
-                 src="https://images.unsplash.com/photo-1588668214407-6ea9e6d8c278?q=80&w=800&auto=format&fit=crop"
+                 src="https://images.unsplash.com/photo-1588668214407-6ea9e6d8c28?q=80&w=800&auto=format&fit=crop"
                  alt="Sri Lanka Beach"
                  className="rounded-2xl shadow-lg w-full h-64 object-cover"
                />
