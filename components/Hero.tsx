@@ -1,19 +1,21 @@
 import React from 'react';
 import { CheckCircle2, Users, ArrowRight, Calendar } from 'lucide-react';
-import { COMPANY_INFO } from '../constants.tsx';
+import { COMPANY_INFO, IMAGES } from '../constants.tsx';
+import LocalImage from './LocalImage.tsx';
 
 const Hero: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image - Real ETP Photo */}
-      <div className="absolute inset-0 z-0">
-        <img
-          src="input_file_1.png"
-          alt="Rotaract friends on Sri Lanka Train"
-          className="w-full h-full object-cover"
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0 bg-gray-900">
+        <LocalImage
+          src={IMAGES.hero}
+          alt="Scenic Train in Sri Lanka Tea Country"
+          className="w-full h-full object-cover object-center"
+          fallbackClassName="bg-gray-800 opacity-50"
         />
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-black/80 pointer-events-none"></div>
       </div>
 
       <div className="container mx-auto px-6 relative z-10 pt-20 text-center md:text-left">
@@ -28,11 +30,11 @@ const Hero: React.FC = () => {
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-6 drop-shadow-lg">
             9 Days in Paradise <br className="hidden md:block" />
-            with <span className="text-transparent bg-clip-text bg-gradient-to-r from-tropical-teal to-tropical-blue">Rotaractors</span>.
+            with <span className="text-transparent bg-clip-text bg-gradient-to-r from-tropical-teal to-tropical-blue font-black italic">Rotaractors</span>.
           </h1>
 
           <p className="text-lg md:text-2xl text-gray-100 mb-8 max-w-2xl font-light leading-relaxed">
-            Curated, hosted, unforgettable. ETP is a guided group trip built for the global Rotaract community. 🌴✨
+            Escape to Paradise is proudly organized by the Rotaract Club of Colombo—the first Rotaract Club in Sri Lanka. Started in 2009, this iconic project.
           </p>
 
           {/* Trust Strip */}

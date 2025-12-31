@@ -22,9 +22,9 @@ const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
-        <div className="font-bold text-2xl tracking-tighter cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <span className="text-tropical-teal">ETP</span>
-          <span className={isScrolled ? 'text-gray-800' : 'text-white'}>SriLanka</span>
+        <div className="font-bold text-xl md:text-2xl tracking-tighter cursor-pointer truncate max-w-[70%]" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+          <span className="text-tropical-teal">Escape to Paradise</span>
+          <span className={`ml-2 ${isScrolled ? 'text-gray-800' : 'text-white'}`}>2026</span>
         </div>
 
         {/* Desktop Links */}

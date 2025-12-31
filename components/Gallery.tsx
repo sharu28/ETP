@@ -1,15 +1,9 @@
 import React from 'react';
+import LocalImage from './LocalImage.tsx';
+import { IMAGES } from '../constants.tsx';
 
 const Gallery: React.FC = () => {
-  const images = [
-    { src: 'input_file_3.png', alt: 'Safari with Elephants', span: 'md:col-span-2' },
-    { src: 'input_file_20.png', alt: 'Surfing lessons', span: 'md:col-span-1' },
-    { src: 'input_file_22.png', alt: 'Kayaking adventure', span: 'md:col-span-1' },
-    { src: 'input_file_17.png', alt: 'Sigiriya Rock View', span: 'md:col-span-2' },
-    { src: 'input_file_2.png', alt: 'Tea Tasting Experience', span: 'md:col-span-1' },
-    { src: 'input_file_14.png', alt: 'Nine Arch Bridge Overlook', span: 'md:col-span-1' },
-    { src: 'input_file_7.png', alt: 'Authentic Sri Lankan Dining', span: 'md:col-span-1' },
-  ];
+  const images = IMAGES.gallery;
 
   return (
     <section className="py-20 bg-white overflow-hidden">
@@ -23,14 +17,14 @@ const Gallery: React.FC = () => {
           {images.map((img, idx) => (
             <div
               key={idx}
-              className={`${img.span} relative group overflow-hidden rounded-2xl h-64 md:h-80 shadow-md hover:shadow-xl transition-all duration-500`}
+              className={`${img.span} relative group overflow-hidden rounded-2xl h-64 md:h-80 shadow-md hover:shadow-xl transition-all duration-500 bg-gray-100`}
             >
-              <img
+              <LocalImage
                 src={img.src}
                 alt={img.alt}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6 pointer-events-none">
                 <p className="text-white font-bold text-lg">{img.alt}</p>
               </div>
             </div>

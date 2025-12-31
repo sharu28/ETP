@@ -11,6 +11,28 @@ export const COMPANY_INFO = {
   googleFormLink: "https://docs.google.com/forms/d/e/1FAIpQLSck_oolYjYQ_l-r26yAS5ZM9m7lFDl_qOpEbLo1UwPW0u-a2A/viewform?fbzx=-7975462463569768430",
 };
 
+// CENTRALIZED ASSET MANAGEMENT
+// Switched to hosted Imgur URLs as requested.
+export const IMAGES = {
+  hero: "https://i.imgur.com/cSiNAQy.jpeg",
+  organizer: "https://i.imgur.com/DH3sDed.jpeg", // Using a culture shot for the organizer avatar
+  credibility: {
+    flags: "https://i.imgur.com/m82GwgT.jpeg", // Main credibility shot
+    groupIndependence: "https://i.imgur.com/rmOfE8c.jpeg",
+    groupSigiriya: "https://i.imgur.com/Foa5kxq.jpeg",
+    groupElla: "https://i.imgur.com/z4PrtuA.jpeg",
+  },
+  gallery: [
+    { src: 'https://i.imgur.com/q1G0PbE.jpeg', alt: 'Safari Adventure', span: 'md:col-span-2' },
+    { src: 'https://i.imgur.com/PUIFDCB.jpeg', alt: 'Surfing Lessons', span: 'md:col-span-1' },
+    { src: 'https://i.imgur.com/KVj5q03.jpeg', alt: 'River Kayaking', span: 'md:col-span-1' },
+    { src: 'https://i.imgur.com/76m6bEb.jpeg', alt: 'Breathtaking Scenery', span: 'md:col-span-2' },
+    { src: 'https://i.imgur.com/OhzVRLW.jpeg', alt: 'Island Views', span: 'md:col-span-1' },
+    { src: 'https://i.imgur.com/gFwU5Ym.jpeg', alt: 'Nature Trails', span: 'md:col-span-1' },
+    { src: 'https://i.imgur.com/DH3sDed.jpeg', alt: 'Cultural Immersion', span: 'md:col-span-1' },
+  ]
+};
+
 export const PRICING_TIERS: PricingTier[] = [
   {
     title: "Early Bird",

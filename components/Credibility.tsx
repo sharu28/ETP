@@ -1,5 +1,6 @@
 import React from 'react';
-import { COMPANY_INFO } from '../constants.tsx';
+import { COMPANY_INFO, IMAGES } from '../constants.tsx';
+import LocalImage from './LocalImage.tsx';
 
 const Credibility: React.FC = () => {
   return (
@@ -20,9 +21,13 @@ const Credibility: React.FC = () => {
             </p>
 
             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 flex items-start gap-4">
-               {/* Organizer Avatar - Real Team Photo could go here, using a group placeholder for now */}
+               {/* Organizer Avatar */}
                <div className="w-14 h-14 bg-gray-200 rounded-full flex-shrink-0 overflow-hidden">
-                 <img src="input_file_18.png" alt="Organizer Team" className="w-full h-full object-cover" />
+                 <LocalImage 
+                   src={IMAGES.organizer} 
+                   alt="Organizer" 
+                   className="w-full h-full object-cover" 
+                 />
                </div>
                <div>
                  <p className="text-gray-900 font-bold text-lg">{COMPANY_INFO.organizerName}</p>
@@ -37,27 +42,27 @@ const Credibility: React.FC = () => {
           {/* Right Content - Real Photo Grid */}
           <div className="lg:w-1/2 grid grid-cols-2 gap-4">
              <div className="space-y-4 mt-8">
-               <img
-                 src="input_file_19.png"
+               <LocalImage
+                 src={IMAGES.credibility.flags}
                  alt="Rotaract International Flags"
-                 className="rounded-2xl shadow-lg w-full h-48 object-cover"
+                 className="rounded-2xl shadow-lg w-full h-48 object-cover bg-gray-100"
                />
-               <img
-                 src="input_file_4.png"
+               <LocalImage
+                 src={IMAGES.credibility.groupIndependence}
                  alt="Group at Independence Square"
-                 className="rounded-2xl shadow-lg w-full h-64 object-cover"
+                 className="rounded-2xl shadow-lg w-full h-64 object-cover bg-gray-100"
                />
              </div>
              <div className="space-y-4">
-                <img
-                 src="input_file_13.png"
+                <LocalImage
+                 src={IMAGES.credibility.groupSigiriya}
                  alt="Group at Sigiriya Base"
-                 className="rounded-2xl shadow-lg w-full h-64 object-cover"
+                 className="rounded-2xl shadow-lg w-full h-64 object-cover bg-gray-100"
                />
-               <img
-                 src="input_file_5.png"
+               <LocalImage
+                 src={IMAGES.credibility.groupElla}
                  alt="Group at 98 Ella"
-                 className="rounded-2xl shadow-lg w-full h-48 object-cover"
+                 className="rounded-2xl shadow-lg w-full h-48 object-cover bg-gray-100"
                />
              </div>
           </div>
