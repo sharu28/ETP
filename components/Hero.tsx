@@ -5,15 +5,15 @@ import { COMPANY_INFO } from '../constants.tsx';
 const Hero: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
+      {/* Background Image - Real ETP Photo */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1588258524675-55d6563e4316?q=80&w=2070&auto=format&fit=crop"
-          alt="Sri Lanka Train"
+          src="input_file_1.png"
+          alt="Rotaract friends on Sri Lanka Train"
           className="w-full h-full object-cover"
         />
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80"></div>
       </div>
 
       <div className="container mx-auto px-6 relative z-10 pt-20 text-center md:text-left">
@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
             with <span className="text-transparent bg-clip-text bg-gradient-to-r from-tropical-teal to-tropical-blue">Rotaractors</span>.
           </h1>
 
-          <p className="text-lg md:text-2xl text-gray-200 mb-8 max-w-2xl font-light leading-relaxed">
+          <p className="text-lg md:text-2xl text-gray-100 mb-8 max-w-2xl font-light leading-relaxed">
             Curated, hosted, unforgettable. ETP is a guided group trip built for the global Rotaract community. 🌴✨
           </p>
 

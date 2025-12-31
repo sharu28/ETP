@@ -20,9 +20,9 @@ const Credibility: React.FC = () => {
             </p>
 
             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 flex items-start gap-4">
-               {/* Placeholder Avatar */}
+               {/* Organizer Avatar - Real Team Photo could go here, using a group placeholder for now */}
                <div className="w-14 h-14 bg-gray-200 rounded-full flex-shrink-0 overflow-hidden">
-                 <img src="https://picsum.photos/100/100?grayscale" alt="Organizer" className="w-full h-full object-cover" />
+                 <img src="input_file_18.png" alt="Organizer Team" className="w-full h-full object-cover" />
                </div>
                <div>
                  <p className="text-gray-900 font-bold text-lg">{COMPANY_INFO.organizerName}</p>
@@ -34,29 +34,29 @@ const Credibility: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Content - Photo Grid */}
+          {/* Right Content - Real Photo Grid */}
           <div className="lg:w-1/2 grid grid-cols-2 gap-4">
              <div className="space-y-4 mt-8">
                <img
-                 src="https://images.unsplash.com/photo-1590623274296-6e5414d643d9?q=80&w=800&auto=format&fit=crop"
-                 alt="Group at Temple"
+                 src="input_file_19.png"
+                 alt="Rotaract International Flags"
                  className="rounded-2xl shadow-lg w-full h-48 object-cover"
                />
                <img
-                 src="https://images.unsplash.com/photo-1546708773-e57c8d9e2626?q=80&w=800&auto=format&fit=crop"
-                 alt="Tea Plantation"
+                 src="input_file_4.png"
+                 alt="Group at Independence Square"
                  className="rounded-2xl shadow-lg w-full h-64 object-cover"
                />
              </div>
              <div className="space-y-4">
                 <img
-                 src="https://images.unsplash.com/photo-1588668214407-6ea9e6d8c28?q=80&w=800&auto=format&fit=crop"
-                 alt="Sri Lanka Beach"
+                 src="input_file_13.png"
+                 alt="Group at Sigiriya Base"
                  className="rounded-2xl shadow-lg w-full h-64 object-cover"
                />
                <img
-                 src="https://images.unsplash.com/photo-1526772662000-3f88f107f5d8?q=80&w=800&auto=format&fit=crop"
-                 alt="Friends laughing"
+                 src="input_file_5.png"
+                 alt="Group at 98 Ella"
                  className="rounded-2xl shadow-lg w-full h-48 object-cover"
                />
              </div>

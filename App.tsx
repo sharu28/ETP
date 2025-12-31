@@ -4,6 +4,7 @@ import Hero from './components/Hero.tsx';
 import Highlights from './components/Highlights.tsx';
 import Credibility from './components/Credibility.tsx';
 import Inclusions from './components/Inclusions.tsx';
+import Gallery from './components/Gallery.tsx';
 import Pricing from './components/Pricing.tsx';
 import CTASection from './components/CTASection.tsx';
 import FAQ from './components/FAQ.tsx';
@@ -17,6 +18,7 @@ function App() {
       <Highlights />
       <Credibility />
       <Inclusions />
+      <Gallery />
       <Pricing />
       <CTASection />
       <FAQ />
