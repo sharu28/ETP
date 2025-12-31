@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
           </h1>
 
           <p className="text-lg md:text-2xl text-gray-100 mb-8 max-w-2xl font-light leading-relaxed">
-            Escape to Paradise is proudly organized by the Rotaract Club of Colombo—the first Rotaract Club in Sri Lanka. Started in 2009, this iconic project.
+            Curated, hosted, unforgettable. ETP is a guided group trip built for the global Rotaract community. 🌴✨
           </p>
 
           {/* Trust Strip */}

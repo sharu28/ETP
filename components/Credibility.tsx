@@ -13,11 +13,11 @@ const Credibility: React.FC = () => {
               Community First
             </span>
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
-              Built by Rotaractors, <br />
-              <span className="text-tropical-teal">For Rotaractors.</span>
+              Sri Lanka's premier <br />
+              <span className="text-tropical-teal">Rotaract Round Trip</span>
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              This isn't a generic tour package. We've curated this experience based on years of organizing youth exchanges and club trips. We know what makes a trip memorable: authentic connections, zero stress, and just enough adventure.
+              Escape to Paradise, is proudly organized by the Rotaract Club of Colombo - the first Rotaract Club in Sri Lanka. Started in 2009, this iconic journey has welcomed Rotaractors and Rotarians from across the world, with the aim of sharing Sri Lanka’s unique culture, natural beauty, and warm hospitality, while fostering lasting friendships and global Rotaract connections.
             </p>
 
             <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 flex items-start gap-4">
