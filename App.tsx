@@ -17,8 +17,8 @@ function App() {
       <Navbar />
       <Hero />
       <Highlights />
-      <Itinerary />
       <Credibility />
+      <Itinerary />
       <Inclusions />
       <Gallery />
       <Pricing />

@@ -12,7 +12,6 @@ export const COMPANY_INFO = {
 };
 
 // CENTRALIZED ASSET MANAGEMENT
-// Switched to hosted Cloudinary URLs as requested.
 export const IMAGES = {
   hero: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509172/rotaractcolombo_1741320157_3582775614832756463_3976884400_tgjtsc.jpg",
   organizer: "https://i.imgur.com/DH3sDed.jpeg", // FLAG: STILL IMGUR
@@ -120,7 +119,7 @@ export const ITINERARY_DAYS: ItineraryItem[] = [
     day: 1,
     date: "21st",
     title: "Welcome to Paradise",
-    activities: ["Arrival", "Bolgoda Dinner by the Lake"],
+    activities: ["Airport Pickup", "Bolgoda Dinner by the Lake"],
     stay: "Colombo",
     icon: "Navigation"
   },
@@ -128,7 +127,7 @@ export const ITINERARY_DAYS: ItineraryItem[] = [
     day: 2,
     date: "22nd",
     title: "Ancient Wonders",
-    activities: ["Cave Temple Visit", "Climbing Sigiriya Rock Fortress"],
+    activities: ["Cave Temple", "Climbing Sigiriya Rock"],
     stay: "Dambulla",
     icon: "Mountain"
   },
@@ -136,7 +135,7 @@ export const ITINERARY_DAYS: ItineraryItem[] = [
     day: 3,
     date: "23rd",
     title: "Wild & Sacred",
-    activities: ["Minneriya Elephant Safari", "Temple of the Tooth Relic (Dalada Maligawa)"],
+    activities: ["Minneriya Elephant Safari", "Temple of the Tooth Relic"],
     stay: "Kandy",
     icon: "Tent"
   },
@@ -144,7 +143,7 @@ export const ITINERARY_DAYS: ItineraryItem[] = [
     day: 4,
     date: "24th",
     title: "The Scenic Route",
-    activities: ["Iconic Train Ride (Kandy to Ella)", "Tea Plantation Visit"],
+    activities: ["Kandy to Ella Train", "Tea Plantation Visit"],
     stay: "Ella",
     icon: "Train"
   },
@@ -152,7 +151,7 @@ export const ITINERARY_DAYS: ItineraryItem[] = [
     day: 5,
     date: "25th",
     title: "Ella Enchantment",
-    activities: ["Relaxation & Exploring Ella Town"],
+    activities: ["Ella Town Exploration", "Chill Vibes"],
     stay: "Ella",
     icon: "Coffee"
   },
@@ -160,24 +159,24 @@ export const ITINERARY_DAYS: ItineraryItem[] = [
     day: 6,
     date: "26th",
     title: "Coastal Vibes",
-    activities: ["Travel to the South Coast"],
+    activities: ["Travel to South Coast", "Sunset Drinks"],
     stay: "Weligama",
     icon: "Sun"
   },
   {
     day: 7,
     date: "27th",
-    title: "Surf & Soul Food",
-    activities: ["Surfing Lessons", "Club Entrance"],
+    title: "Surf & Grizzly Cookout",
+    activities: ["Surfing Lessons", "Market Visit & Storytelling Cookout", "Club Night"],
     stay: "Weligama",
     highlight: true,
-    icon: "Waves"
+    icon: "Utensils"
   },
   {
     day: 8,
     date: "28th",
     title: "Lagoon Adventure",
-    activities: ["Kayaking Expedition"],
+    activities: ["Mangrove Kayaking", "Awards Night"],
     stay: "Weligama",
     icon: "Anchor"
   },
@@ -185,7 +184,7 @@ export const ITINERARY_DAYS: ItineraryItem[] = [
     day: 9,
     date: "29th",
     title: "Departure",
-    activities: ["Return to Colombo", "Farewells"],
+    activities: ["Transfer to Colombo", "Farewells"],
     stay: "N/A",
     icon: "Send"
   },
