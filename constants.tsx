@@ -1,4 +1,4 @@
-import { FaqItem, PricingTier, HighlightItem } from './types.ts';
+import { FaqItem, PricingTier, HighlightItem, ItineraryItem } from './types.ts';
 
 export const COMPANY_INFO = {
   name: "Escape to Paradise (ETP)",
@@ -15,20 +15,21 @@ export const COMPANY_INFO = {
 // Switched to hosted Cloudinary URLs as requested.
 export const IMAGES = {
   hero: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509172/rotaractcolombo_1741320157_3582775614832756463_3976884400_tgjtsc.jpg",
-  organizer: "https://i.imgur.com/DH3sDed.jpeg", // Using a culture shot for the organizer avatar
+  organizer: "https://i.imgur.com/DH3sDed.jpeg", // FLAG: STILL IMGUR
   credibility: {
-    flags: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509180/2023_-_1_ymkkwn.jpg", // Main credibility shot
-    groupIndependence: "https://i.imgur.com/rmOfE8c.jpeg",
-    groupSigiriya: "https://i.imgur.com/Foa5kxq.jpeg",
-    groupElla: "https://i.imgur.com/z4PrtuA.jpeg",
+    flags: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509180/2023_-_1_ymkkwn.jpg",
+    groupIndependence: "https://i.imgur.com/rmOfE8c.jpeg", // FLAG: STILL IMGUR
+    groupSigiriya: "https://i.imgur.com/Foa5kxq.jpeg", // FLAG: STILL IMGUR
+    groupElla: "https://i.imgur.com/z4PrtuA.jpeg", // FLAG: STILL IMGUR
   },
   gallery: [
-    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509172/rotaractcolombo_1741320157_3582775614824396353_3976884400_qajrej.jpg', alt: 'Safari Adventure', span: 'md:col-span-2' },
+    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509172/rotaractcolombo_1741320157_3582775614816120025_3976884400_akah5h.jpg', alt: 'Breathtaking Scenery', span: 'md:col-span-1' },
+    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767521378/IMG_4166_skczxr.jpg', alt: 'Exploring Beaches', span: 'md:col-span-1' },
+    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509179/2023_-_3_ptd5fq.jpg', alt: 'Safari Ride', span: 'md:col-span-1' },
+    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509172/rotaractcolombo_1741320157_3582775614824396353_3976884400_qajrej.jpg', alt: 'Elephant Safari', span: 'md:col-span-2' },
     { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509226/2023_-_8_cqsmsz.jpg', alt: 'Surfing Lessons', span: 'md:col-span-1' },
     { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509179/2023_-_6_bdwzrd.jpg', alt: 'Sigiriya Trek', span: 'md:col-span-1' },
-    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509174/482033161_1065161352309904_6207025903986473875_n_nj8ruw.jpg', alt: 'Breathtaking Scenery', span: 'md:col-span-2' },
-    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509173/rotaractcolombo_1741320157_3582775614816011960_3976884400_gx6hs0.jpg', alt: 'Island Views', span: 'md:col-span-1' },
-    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509172/rotaractcolombo_1741320157_3582775614816040772_3976884400_ocgbcc.jpg', alt: 'Cultural Heritage', span: 'md:col-span-1' },
+    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509176/2023_-_7_xzvfcs.jpg', alt: 'Nature Walks', span: 'md:col-span-1' },
     { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509174/rotaractcolombo_1741320157_3582775614832867948_3976884400_sremto.jpg', alt: 'Cultural Immersion', span: 'md:col-span-1' },
   ]
 };
@@ -111,5 +112,81 @@ export const HIGHLIGHTS: HighlightItem[] = [
     title: "The ETP Spirit",
     description: "We're fired up to make this the best ETP yet. You're traveling with the best committee in the island.",
     iconName: "Users",
+  },
+];
+
+export const ITINERARY_DAYS: ItineraryItem[] = [
+  {
+    day: 1,
+    date: "21st",
+    title: "Welcome to Paradise",
+    activities: ["Arrival", "Bolgoda Dinner by the Lake"],
+    stay: "Colombo",
+    icon: "Navigation"
+  },
+  {
+    day: 2,
+    date: "22nd",
+    title: "Ancient Wonders",
+    activities: ["Cave Temple Visit", "Climbing Sigiriya Rock Fortress"],
+    stay: "Dambulla",
+    icon: "Mountain"
+  },
+  {
+    day: 3,
+    date: "23rd",
+    title: "Wild & Sacred",
+    activities: ["Minneriya Elephant Safari", "Temple of the Tooth Relic (Dalada Maligawa)"],
+    stay: "Kandy",
+    icon: "Tent"
+  },
+  {
+    day: 4,
+    date: "24th",
+    title: "The Scenic Route",
+    activities: ["Iconic Train Ride (Kandy to Ella)", "Tea Plantation Visit"],
+    stay: "Ella",
+    icon: "Train"
+  },
+  {
+    day: 5,
+    date: "25th",
+    title: "Ella Enchantment",
+    activities: ["Relaxation & Exploring Ella Town"],
+    stay: "Ella",
+    icon: "Coffee"
+  },
+  {
+    day: 6,
+    date: "26th",
+    title: "Coastal Vibes",
+    activities: ["Travel to the South Coast"],
+    stay: "Weligama",
+    icon: "Sun"
+  },
+  {
+    day: 7,
+    date: "27th",
+    title: "Surf & Soul Food",
+    activities: ["Surfing Lessons", "Club Entrance"],
+    stay: "Weligama",
+    highlight: true,
+    icon: "Waves"
+  },
+  {
+    day: 8,
+    date: "28th",
+    title: "Lagoon Adventure",
+    activities: ["Kayaking Expedition"],
+    stay: "Weligama",
+    icon: "Anchor"
+  },
+  {
+    day: 9,
+    date: "29th",
+    title: "Departure",
+    activities: ["Return to Colombo", "Farewells"],
+    stay: "N/A",
+    icon: "Send"
   },
 ];

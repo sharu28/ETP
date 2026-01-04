@@ -30,6 +30,7 @@ const Navbar: React.FC = () => {
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-8">
           <a href="#highlights" className={`text-sm font-medium hover:text-tropical-teal transition ${isScrolled ? 'text-gray-600' : 'text-white/90'}`}>Highlights</a>
+          <a href="#itinerary" className={`text-sm font-medium hover:text-tropical-teal transition ${isScrolled ? 'text-gray-600' : 'text-white/90'}`}>Itinerary</a>
           <a href="#pricing" className={`text-sm font-medium hover:text-tropical-teal transition ${isScrolled ? 'text-gray-600' : 'text-white/90'}`}>Pricing</a>
           <a href="#faq" className={`text-sm font-medium hover:text-tropical-teal transition ${isScrolled ? 'text-gray-600' : 'text-white/90'}`}>FAQ</a>
           <a
@@ -54,6 +55,7 @@ const Navbar: React.FC = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-xl p-6 flex flex-col gap-4 animate-fade-in">
           <a href="#highlights" onClick={() => setIsMobileMenuOpen(false)} className="text-gray-800 font-medium">Highlights</a>
+          <a href="#itinerary" onClick={() => setIsMobileMenuOpen(false)} className="text-gray-800 font-medium">Itinerary</a>
           <a href="#pricing" onClick={() => setIsMobileMenuOpen(false)} className="text-gray-800 font-medium">Pricing</a>
           <a href="#faq" onClick={() => setIsMobileMenuOpen(false)} className="text-gray-800 font-medium">FAQ</a>
           <a

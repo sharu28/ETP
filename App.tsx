@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar.tsx';
 import Hero from './components/Hero.tsx';
 import Highlights from './components/Highlights.tsx';
+import Itinerary from './components/Itinerary.tsx';
 import Credibility from './components/Credibility.tsx';
 import Inclusions from './components/Inclusions.tsx';
 import Gallery from './components/Gallery.tsx';
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <Hero />
       <Highlights />
+      <Itinerary />
       <Credibility />
       <Inclusions />
       <Gallery />
