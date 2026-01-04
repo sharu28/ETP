@@ -12,24 +12,24 @@ export const COMPANY_INFO = {
 };
 
 // CENTRALIZED ASSET MANAGEMENT
-// Switched to hosted Imgur URLs as requested.
+// Switched to hosted Cloudinary URLs as requested.
 export const IMAGES = {
-  hero: "https://i.imgur.com/cSiNAQy.jpeg",
+  hero: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509172/rotaractcolombo_1741320157_3582775614832756463_3976884400_tgjtsc.jpg",
   organizer: "https://i.imgur.com/DH3sDed.jpeg", // Using a culture shot for the organizer avatar
   credibility: {
-    flags: "https://i.imgur.com/m82GwgT.jpeg", // Main credibility shot
+    flags: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509180/2023_-_1_ymkkwn.jpg", // Main credibility shot
     groupIndependence: "https://i.imgur.com/rmOfE8c.jpeg",
     groupSigiriya: "https://i.imgur.com/Foa5kxq.jpeg",
     groupElla: "https://i.imgur.com/z4PrtuA.jpeg",
   },
   gallery: [
-    { src: 'https://i.imgur.com/q1G0PbE.jpeg', alt: 'Safari Adventure', span: 'md:col-span-2' },
-    { src: 'https://i.imgur.com/PUIFDCB.jpeg', alt: 'Surfing Lessons', span: 'md:col-span-1' },
-    { src: 'https://i.imgur.com/KVj5q03.jpeg', alt: 'River Kayaking', span: 'md:col-span-1' },
-    { src: 'https://i.imgur.com/76m6bEb.jpeg', alt: 'Breathtaking Scenery', span: 'md:col-span-2' },
-    { src: 'https://i.imgur.com/OhzVRLW.jpeg', alt: 'Island Views', span: 'md:col-span-1' },
-    { src: 'https://i.imgur.com/gFwU5Ym.jpeg', alt: 'Nature Trails', span: 'md:col-span-1' },
-    { src: 'https://i.imgur.com/DH3sDed.jpeg', alt: 'Cultural Immersion', span: 'md:col-span-1' },
+    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509172/rotaractcolombo_1741320157_3582775614824396353_3976884400_qajrej.jpg', alt: 'Safari Adventure', span: 'md:col-span-2' },
+    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509226/2023_-_8_cqsmsz.jpg', alt: 'Surfing Lessons', span: 'md:col-span-1' },
+    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509179/2023_-_6_bdwzrd.jpg', alt: 'Sigiriya Trek', span: 'md:col-span-1' },
+    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509174/482033161_1065161352309904_6207025903986473875_n_nj8ruw.jpg', alt: 'Breathtaking Scenery', span: 'md:col-span-2' },
+    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509173/rotaractcolombo_1741320157_3582775614816011960_3976884400_gx6hs0.jpg', alt: 'Island Views', span: 'md:col-span-1' },
+    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509172/rotaractcolombo_1741320157_3582775614816040772_3976884400_ocgbcc.jpg', alt: 'Cultural Heritage', span: 'md:col-span-1' },
+    { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509174/rotaractcolombo_1741320157_3582775614832867948_3976884400_sremto.jpg', alt: 'Cultural Immersion', span: 'md:col-span-1' },
   ]
 };
 
