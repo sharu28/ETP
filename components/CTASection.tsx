@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, ExternalLink } from 'lucide-react';
+import { ArrowRight, MessageCircle } from 'lucide-react';
 import { COMPANY_INFO } from '../constants.tsx';
 
 const CTASection: React.FC = () => {
@@ -28,12 +28,12 @@ const CTASection: React.FC = () => {
                 Apply for Selection <ArrowRight className="w-6 h-6" />
               </a>
               <a
-                href={COMPANY_INFO.googleFormLink}
+                href={COMPANY_INFO.whatsappLink}
                 target="_blank"
                 rel="noreferrer"
                 className="text-gray-500 hover:text-gray-800 font-medium flex items-center gap-2 transition"
               >
-                Open Form in New Tab <ExternalLink size={16} />
+                Ask a Question <MessageCircle size={16} />
               </a>
             </div>
             

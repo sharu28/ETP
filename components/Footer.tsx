@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center mb-12">
           {/* Brand */}
           <div className="mb-8 md:mb-0 text-center md:text-left">
-            <h3 className="text-2xl font-bold mb-2">ETP SriLanka</h3>
+            <h3 className="text-2xl font-bold mb-2">Escape to Paradise 2026</h3>
             <p className="text-gray-400 text-sm">Curated group travel for the Rotaract community.</p>
           </div>
 
@@ -29,10 +29,6 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
           <p>&copy; {new Date().getFullYear()} Escape to Paradise. All rights reserved.</p>
-          <div className="flex gap-4 mt-4 md:mt-0">
-             <span>Terms & Conditions</span>
-             <span>Privacy Policy</span>
-          </div>
         </div>
         <p className="text-center text-xs text-gray-600 mt-8">
           This trip is independently organized and not an official Rotary International event.

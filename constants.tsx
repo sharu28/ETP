@@ -5,8 +5,8 @@ export const COMPANY_INFO = {
   organizerName: "ETP Organizing Committee",
   committeeName: "Rotaract Sri Lanka",
   email: "hello@etpsrilanka.com",
-  instagram: "@etpsrilanka",
-  whatsappLink: "https://wa.me/94770000000", 
+  instagram: "escape.to.paradise_rcc",
+  whatsappLink: "https://wa.me/94742216040", 
   nextTripDates: "March 2026",
   googleFormLink: "https://docs.google.com/forms/d/e/1FAIpQLSck_oolYjYQ_l-r26yAS5ZM9m7lFDl_qOpEbLo1UwPW0u-a2A/viewform?fbzx=-7975462463569768430",
 };
