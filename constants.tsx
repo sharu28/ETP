@@ -14,12 +14,12 @@ export const COMPANY_INFO = {
 // CENTRALIZED ASSET MANAGEMENT
 export const IMAGES = {
   hero: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509172/rotaractcolombo_1741320157_3582775614832756463_3976884400_tgjtsc.jpg",
-  organizer: "https://i.imgur.com/DH3sDed.jpeg", // FLAG: STILL IMGUR
+  organizer: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_800/v1767509174/rotaractcolombo_1741320157_3582775614832867948_3976884400_sremto.jpg", 
   credibility: {
     flags: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509180/2023_-_1_ymkkwn.jpg",
-    groupIndependence: "https://i.imgur.com/rmOfE8c.jpeg", // FLAG: STILL IMGUR
-    groupSigiriya: "https://i.imgur.com/Foa5kxq.jpeg", // FLAG: STILL IMGUR
-    groupElla: "https://i.imgur.com/z4PrtuA.jpeg", // FLAG: STILL IMGUR
+    groupIndependence: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509172/rotaractcolombo_1741320157_3582775614816040772_3976884400_ocgbcc.jpg", 
+    groupSigiriya: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509179/2023_-_6_bdwzrd.jpg", 
+    groupElla: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509173/rotaractcolombo_1741320157_3582775614816011960_3976884400_gx6hs0.jpg", 
   },
   gallery: [
     { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509172/rotaractcolombo_1741320157_3582775614816120025_3976884400_akah5h.jpg', alt: 'Breathtaking Scenery', span: 'md:col-span-1' },
