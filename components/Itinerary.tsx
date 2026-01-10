@@ -14,8 +14,8 @@ const Itinerary: React.FC = () => {
   const row2 = [ITINERARY_DAYS[5], ITINERARY_DAYS[4], ITINERARY_DAYS[3]]; 
   const row3 = ITINERARY_DAYS.slice(6, 9);
 
-  const renderRow = (items: any[], rowIndex: number) => (
-    <div className="relative grid grid-cols-1 md:grid-cols-3 gap-8">
+  const renderRow = (items: any[], rowIndex: number, reverseOnMobile: boolean = false) => (
+    <div className={`relative gap-8 ${reverseOnMobile ? 'flex flex-col-reverse md:grid md:grid-cols-3' : 'grid grid-cols-1 md:grid-cols-3'}`}>
       {/* Horizontal Connecting Line (Desktop Only) */}
       <div className="hidden md:block absolute top-1/2 left-[16.66%] right-[16.66%] h-0.5 border-t-[3px] border-dashed border-tropical-teal/40 -translate-y-1/2 z-0"></div>
 
@@ -118,7 +118,7 @@ const Itinerary: React.FC = () => {
 
           {/* Row 2: Days 6-4 (Reversed) */}
           <div className="relative">
-            {renderRow(row2, 2)}
+            {renderRow(row2, 2, true)}
             {/* Vertical Connector: Row 2 -> Row 3 (Left Side) */}
             <div className="hidden md:block absolute left-[16.66%] top-full h-20 border-l-[3px] border-dashed border-tropical-teal/40 z-0"></div>
           </div>
