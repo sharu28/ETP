@@ -1,5 +1,5 @@
 import React from 'react';
-import { COMPANY_INFO } from '../constants.tsx';
+import { COMPANY_INFO, IMAGES } from '../constants.tsx';
 import { Instagram, Mail, MessageCircle } from 'lucide-react';
 
 const Footer: React.FC = () => {
@@ -11,6 +11,15 @@ const Footer: React.FC = () => {
           <div className="mb-8 md:mb-0 text-center md:text-left">
             <h3 className="text-2xl font-bold mb-2">Escape to Paradise 2026</h3>
             <p className="text-gray-400 text-sm">Curated group travel for the Rotaract community.</p>
+
+            <div className="flex gap-4 mt-6 justify-center md:justify-start">
+              <div className="bg-white p-2 rounded-lg inline-flex items-center justify-center shadow-sm">
+                <img src={IMAGES.logos.rotary} alt="Rotary International" className="h-8 w-auto" />
+              </div>
+              <div className="bg-white p-2 rounded-lg inline-flex items-center justify-center shadow-sm">
+                <img src={IMAGES.logos.rotaract} alt="Rotaract" className="h-8 w-auto" />
+              </div>
+            </div>
           </div>
 
           {/* Social Links */}

@@ -21,6 +21,10 @@ export const IMAGES = {
     groupSigiriya: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509179/2023_-_6_bdwzrd.jpg", 
     groupElla: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509173/rotaractcolombo_1741320157_3582775614816011960_3976884400_gx6hs0.jpg", 
   },
+  logos: {
+    rotary: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,fl_progressive,c_limit,w_200,dpr_auto/v1768649616/rotary_logo_aqu5td.jpg",
+    rotaract: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,c_limit,w_200,dpr_auto/v1768649616/rotaract_logo_vh5dxt.png",
+  },
   gallery: [
     { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509172/rotaractcolombo_1741320157_3582775614816120025_3976884400_akah5h.jpg', alt: 'Breathtaking Scenery', span: 'md:col-span-1' },
     { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767521378/IMG_4166_skczxr.jpg', alt: 'Exploring Beaches', span: 'md:col-span-1' },
