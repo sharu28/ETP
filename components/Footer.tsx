@@ -12,13 +12,9 @@ const Footer: React.FC = () => {
             <h3 className="text-2xl font-bold mb-2">Escape to Paradise 2026</h3>
             <p className="text-gray-400 text-sm">Curated group travel for the Rotaract community.</p>
 
-            <div className="flex gap-4 mt-6 justify-center md:justify-start">
-              <div className="bg-white p-2 rounded-lg inline-flex items-center justify-center shadow-sm">
-                <img src={IMAGES.logos.rotary} alt="Rotary International" className="h-8 w-auto" />
-              </div>
-              <div className="bg-white p-2 rounded-lg inline-flex items-center justify-center shadow-sm">
-                <img src={IMAGES.logos.rotaract} alt="Rotaract" className="h-8 w-auto" />
-              </div>
+            <div className="flex gap-6 mt-8 justify-center md:justify-start items-center bg-transparent">
+              <img src={IMAGES.logos.rotary} alt="Rotary International" className="h-14 md:h-20 w-auto object-contain" />
+              <img src={IMAGES.logos.rotaract} alt="Rotaract" className="h-14 md:h-20 w-auto object-contain" />
             </div>
           </div>
 
