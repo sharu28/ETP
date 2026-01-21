@@ -22,8 +22,9 @@ export const IMAGES = {
     groupElla: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509173/rotaractcolombo_1741320157_3582775614816011960_3976884400_gx6hs0.jpg", 
   },
   logos: {
-    rotary: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,fl_progressive,c_limit,w_200,dpr_auto/v1768649616/rotary_logo_aqu5td.jpg",
-    rotaract: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,c_limit,w_200,dpr_auto/v1768649616/rotaract_logo_vh5dxt.png",
+    rotary: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,fl_strip_profile,dpr_auto,c_scale,w_300/v1768985501/Untitled_design_4_vkt4q9.png",
+    rotaract: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,fl_strip_profile,dpr_auto,c_scale,w_300/v1768985501/1_xfhwvn.png",
+    district: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,fl_strip_profile,dpr_auto,c_scale,w_300/v1768984509/logo-300x55_a2lqhv.png"
   },
   gallery: [
     { src: 'https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_1600/v1767509172/rotaractcolombo_1741320157_3582775614816120025_3976884400_akah5h.jpg', alt: 'Breathtaking Scenery', span: 'md:col-span-1' },
