@@ -1,4 +1,4 @@
-import { FaqItem, PricingTier, HighlightItem, ItineraryItem } from './types.ts';
+import { FaqItem, PricingTier, HighlightItem, ItineraryItem, TestimonialItem } from './types.ts';
 
 export const COMPANY_INFO = {
   name: "Escape to Paradise (ETP)",
@@ -193,4 +193,19 @@ export const ITINERARY_DAYS: ItineraryItem[] = [
     stay: "N/A",
     icon: "Send"
   },
+];
+
+export const TESTIMONIALS: TestimonialItem[] = [
+  {
+    name: "Timo",
+    role: "Rotaract Club Munich International",
+    image: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_800/v1770973938/WhatsApp_Image_2026-02-11_at_11.01.05_AM_umfms4.jpg",
+    quote: "I was part of the ETP in 2024 and it’s been a fantastic journey that I can highly recommend. The trip was an excellent opportunity to not only explore many parts of Sri Lanka, but to also get very interesting insights from the Sri Lankan Rotaractors themselves who have been with us along the journey. This has certainly been the highlight of 2024 for me."
+  },
+  {
+    name: "Justyna",
+    role: "Rotaract Brussels Coudenberg International",
+    image: "https://res.cloudinary.com/ds4xc6fcf/image/upload/f_auto,q_auto,w_800/v1770973937/WhatsApp_Image_2026-02-11_at_11.02.10_AM_wvbquu.jpg",
+    quote: "Amazing nature and very friendly people. I hope I can come back some day, maybe for more surfing classes and tuk tuk rides! I have a great memories of the Sri Lanka trip. We clicked very well together as a group and with our hosts. There are so many fun moments to remember, places and activities we did that it would be really difficult to choose my favourite one!"
+  }
 ];

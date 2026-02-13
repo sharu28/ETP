@@ -10,17 +10,20 @@ import Pricing from './components/Pricing.tsx';
 import CTASection from './components/CTASection.tsx';
 import FAQ from './components/FAQ.tsx';
 import Footer from './components/Footer.tsx';
+import Testimonials from './components/Testimonials.tsx';
 
 function App() {
   return (
     <div className="font-sans antialiased text-gray-900 bg-white selection:bg-tropical-teal selection:text-white">
       <Navbar />
       <Hero />
-      <Highlights />
+      {/* Highlights hidden for now */}
+      {/* <Highlights /> */}
       <Credibility />
       <Itinerary />
       <Inclusions />
       <Gallery />
+      <Testimonials />
       <Pricing />
       <CTASection />
       <FAQ />

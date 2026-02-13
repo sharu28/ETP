@@ -26,3 +26,10 @@ export interface ItineraryItem {
   highlight?: boolean;
   icon?: any;
 }
+
+export interface TestimonialItem {
+  name: string;
+  role: string;
+  image: string;
+  quote: string;
+}
